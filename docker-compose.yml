@@ -1,0 +1,14 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    network_mode: host
+    environment:
+      MSG_USERNAME: "user@domain.com"
+      MSG_PASSWORD: "password12345"
+      MSG_CHANNEL: "channel12345@chat.domain.com"
+      MSG_SIZE: "100"
+      SERVER_NAME: "aiohttp-api-proxy"
+      SERVER_PORT: "11222"
+      SERVER_TOKEN: "token0123456789token"

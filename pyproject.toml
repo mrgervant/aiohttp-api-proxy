@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aiohttp-api-proxy"
+version = "0.1.0"
+description = "Simple aiohttp-based API proxy"
+authors = ["Vladislav Popov <vlad.popov98@yandex.ru>"]
+license = "Apache License 2.0"
+readme = "README.md"
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+aiohttp = "^3.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
