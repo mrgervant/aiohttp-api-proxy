@@ -20,7 +20,7 @@ To create and run the image use the following command:
 docker-compose up --build
 ```
 
-The application will be available for HTTP-requests on the SERVER_PORT - specified in environments from docker-compose.yml
+The application-container will be available for HTTP-requests on the SERVER_PORT - specified in environments from docker-compose.yml
 ```
 ...
 environment:
@@ -34,7 +34,7 @@ environment:
 ```
 
 ## Changing the application to your API
-To change the application for a specific API, adjustments are required.
+To change the application for a specific API, adjustments are required
 
 Responsibility of modules:
 
